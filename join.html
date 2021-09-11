@@ -1,0 +1,105 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>加入我们</title>
+        <link rel="stylesheet" href="js-css/main.css" />
+		<link rel="icon" type="image/x-icon" href="img/tan.ico"/>
+	</head>
+	<script type="text/javascript">
+        window.onload = function(){
+            //屏蔽键盘事件
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            //屏蔽鼠标右键
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+
+    </script>
+	
+	<body class="is-loading">
+		<div id="wrapper">
+			<section id="main">
+				<header>
+				<h1 class="about">加入我们</h1>
+					<span class="avatar">
+					</span>
+					<p class="about_text">
+					小谭工作室招成员！感兴趣的小伙伴发简历到tx1611235218@gmail.com。<br/>请注明来意，应聘职业岗位！<br/>
+					</p>
+					<h2 class="about_h3">Android开发</h2>
+					<h3 class="about_h3">工作职责</h3>
+					<p class="about_text">
+					1.负责Txonk应用功能开发完善
+					</p>										
+					<p class="about_text">
+					2.跟进用户反馈，及时修复BUG。
+					</p>
+					<h3 class="about_h3">职位要求</h3>
+					<p class="about_text">
+					1.精通Android开发平台及框架原理，有半年及以上开发经验。
+					</p>
+					<p class="about_text">
+					2.有Android移动产品开发经验者优先。
+					</p>
+					<h2 class="about_h3">ROM维护</h2>
+					<h3 class="about_h3">工作职责</h3>
+					<p class="about_text">
+					1.不定期更新维护机型ROM/TWRP。
+					</p>
+					<p class="about_text">
+					2.跟进用户反馈，修复系统BUG。
+					</p>
+					<h3 class="about_h3">职位要求</h3>
+					<p class="about_text">
+					1.熟练使用LINUX/UNIX等操作系统。
+						</p>
+						<p class="about_text">
+					2.熟练编译移植ROM/TWRP，至少有两年及以上玩机经验。
+						</p>
+					<p class="about_text">
+					3.精通Android底层架构。
+						</p>
+						<br/>
+				</header>						
+					<div class="">
+						<ul class="icons">
+							      <li><a href="index.html"> 返回主页</a></li>
+								  <li><a href="contact.html"> 联系合作</a></li>
+								  <li><a href="about.html"> 关于我们</a></li>
+						</ul>     
+					</div>				                                  
+				</section>                                            
+					<footer id="footer">
+<span id="htmer_time"></span><br/>        		  	
+  © 2016-2020 <a href="index.html">CODERSTORY</a>. ALL RIGHTS RESERVED | <a href="http://wpa.qq.com/msgrd?v=3&uin=1611235218&site=qq&menu=yes">ByTan</a>
+					<span id="htmer_time"></span>	
+		<script>if('addEventListener'in window){window.addEventListener('load',function(){document.body.className=document.body.className.replace(/\bis-loading\b/,'')});document.body.className+=(navigator.userAgent.match(/(MSIE|rv:11\.0)/)?' is-ie':'')}</script>
+        <script src="js-css/jquery.min.js"></script>
+        <script src="js-css/snowfall.js"></script>
+		<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="200" src="js-css/canvas-nest.min.js"></script>
+		<!--作者：ByTan-->
+		<script type="text/javascript"language="javascript">function setTime(){var create_time=Math.round(new Date(Date.UTC(2016,11,16,10,20,0)).getTime()/1000);var timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);currentTime=secondToDate((timestamp-create_time));currentTimeHtml="本站已运行"+currentTime[0]+' 年 '+currentTime[1]+' 天 '+currentTime[2]+' 时 '+currentTime[3]+' 分 '+currentTime[4]+' 秒';document.getElementById("htmer_time").innerHTML=currentTimeHtml}function secondToDate(second){if(!second){return 0}var time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600}if(second>=3600){time[2]=parseInt(second/3600);second%=3600}if(second>=60){time[3]=parseInt(second/60);second%=60}if(second>0){time[4]=second}return time}setInterval(setTime,1000);</script>
+		 <!--bytan.club-->
+		 </script>
+		 </ul>
+		</footer>
+	</body>
+</html>

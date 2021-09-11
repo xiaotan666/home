@@ -1,0 +1,103 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>关于我们</title>
+        <link rel="stylesheet" href="js-css/main.css" />
+		<link rel="icon" type="image/x-icon" href="img/tan.ico"/>
+	</head>
+	<script type="text/javascript">
+        window.onload = function(){
+            //屏蔽键盘事件
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            //屏蔽鼠标右键
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+
+    </script>
+	
+	<body class="is-loading">
+		<div id="wrapper">
+			<section id="main">
+				<header>
+				<h1 class="about">关于我们</h1>
+					<span class="avatar">
+					</span>
+					<p class="about_text">
+					小谭工作室是深圳市小谭网络科技有限公司旗下的一个互联网软件设计开发的团队<br/>
+					团队于2016年创建,精通Java,Spring,C,C++,Vue,Asp.Net等。<br/>
+					主要代表作作品"软件:Txonk,网站:Txonk论坛,小谭影视网,ByTan'blog,小谭工作室"<br/>
+					团队副业：ROM开发编译、移植,数码玩机。<br/>
+					目前ROM维护机型"金立F105/100/103,金立金刚,魅蓝2/note2<br/>
+					魅族16th,乐视1s(x520),小米max(650/652),红米note5等。
+					</p>
+					<h2 class="about_h3">社交关注</h2>
+					<p class="about_text">
+					官方网站：<a href="http://www.bytan.club">http://www.bytan.club/</a>
+					</p>					
+					<p class="about_text">
+					微博主页：<a href="https://weibo.com/bytan6/">https://weibo.com/bytan6/</a>
+					</p>
+					<p class="about_text">
+					抖音主页：<a href="https://v.douyin.com/JBdaDQM/">https://v.douyin.com/JBdaDQM/</a>
+					</p>
+					<p class="about_text">
+					快手主页：<a href="https://v.kuaishou.com/4J9bCk">https://v.kuaishou.com/4J9bCk</a>
+					</p>
+					<h2 class="about_h3">客户端APP下载</h2>
+					<p class="about_text">
+					Txonk安卓客户端下载(暂时维护):
+					<a href="http://www.bytan.club/apk/com.txonk.community">点击下载</a>
+					</p>
+					<p class="about_text">
+					Txonk苹果客户端下载:
+					<a href="#">敬请期待！</a>
+					</p>
+					<h2 class="about_h3">合作联系</h2>
+					<p class="about_text">
+						合作请联系：tx1611235218@gmail.com
+						</p>
+						<br/>
+				</header>						
+					<div class="">
+						<ul class="icons">
+							      <li><a href="index.html"> 返回主页</a></li>
+								  <li><a href="contact.html"> 联系合作</a></li>
+								  <li><a href="join.html"> 加入我们</a></li>
+						</ul>     
+					</div>				                                  
+				</section>                                            
+					<footer id="footer">
+<span id="htmer_time"></span><br/>        		  	
+  © 2016-2020 <a href="index.html">CODERSTORY</a>. ALL RIGHTS RESERVED | <a href="http://wpa.qq.com/msgrd?v=3&uin=1611235218&site=qq&menu=yes">ByTan</a>
+					<span id="htmer_time"></span>	
+		<script>if('addEventListener'in window){window.addEventListener('load',function(){document.body.className=document.body.className.replace(/\bis-loading\b/,'')});document.body.className+=(navigator.userAgent.match(/(MSIE|rv:11\.0)/)?' is-ie':'')}</script>
+        <script src="js-css/jquery.min.js"></script>
+        <script src="js-css/snowfall.js"></script>
+		<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="200" src="js-css/canvas-nest.min.js"></script>
+		<!--作者：ByTan-->
+		<script type="text/javascript"language="javascript">function setTime(){var create_time=Math.round(new Date(Date.UTC(2016,11,16,10,20,0)).getTime()/1000);var timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);currentTime=secondToDate((timestamp-create_time));currentTimeHtml="本站已运行"+currentTime[0]+' 年 '+currentTime[1]+' 天 '+currentTime[2]+' 时 '+currentTime[3]+' 分 '+currentTime[4]+' 秒';document.getElementById("htmer_time").innerHTML=currentTimeHtml}function secondToDate(second){if(!second){return 0}var time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600}if(second>=3600){time[2]=parseInt(second/3600);second%=3600}if(second>=60){time[3]=parseInt(second/60);second%=60}if(second>0){time[4]=second}return time}setInterval(setTime,1000);</script>
+		 <!--bytan.club-->
+		 </script>
+		 </ul>
+		</footer>
+	</body>
+</html>
